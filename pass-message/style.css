@@ -1,0 +1,130 @@
+/* reset code here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./image/ocean.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+/* styling container here */
+
+.container {
+  width: 65%;
+  min-width: 400px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* styling header portion */
+
+header {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/* styling main section */
+
+.input-holder {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.input-holder form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-holder input {
+  margin: 10px auto;
+  padding: 8px;
+  font-size: 18px;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+
+.input-holder input[type="text"] {
+  outline: none;
+  border-radius: 3px;
+  width: 90%;
+}
+
+.input-holder input[type="submit"] {
+  width: 100px;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1.2px;
+}
+
+.button {
+  transform: scale(95%);
+}
+
+/* styling show-message section */
+
+.show-message {
+  color: #ffffff;
+  margin: 8px auto 20px;
+}
+
+.show-message h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 5px 80px;
+  padding: 8px;
+  color: #f6d860;
+}
+
+.bg-color {
+  /* background-color: #f0f6fd; */
+  border-radius: 5px;
+  background-color: rgb(240, 246, 253, 0.1);
+}
+
+.show-message h3 {
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.show-message h4 {
+  font-size: 22px;
+  padding: 5px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* styling footer portion */
+
+footer {
+  margin: 5px auto;
+  color: #ffffff;
+}
+
+footer p {
+  padding: 5px;
+  font-size: 12px;
+}
