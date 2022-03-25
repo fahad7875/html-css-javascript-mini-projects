@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: coral;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 7px;
+}
+
+main .selection {
+  padding: 10px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+main .reset {
+  padding: 5px 3px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: hotpink;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+main .reset:hover {
+  transform: scale(1.1);
+}
+
+.change {
+  padding: 20px;
+}
+
+label {
+  margin: 10px;
+}
+
+p {
+  text-align: justify;
+  color: #000;
+}
